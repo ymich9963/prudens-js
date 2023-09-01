@@ -317,7 +317,7 @@ function extend(sub, unifier) {
     // console.log("sub:", sub);
     // console.log("Unifier in utils.extend():");
     // console.log("Unifier (in extend):", unifier);
-    const extendedSub = utils.deepCopy(sub);
+    const extendedSub = deepCopy(sub);
     // console.log("Sub (in extend):");
     // console.log(extendedSub);
     for (const key of Object.keys(unifier)) {

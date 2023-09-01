@@ -1,0 +1,32 @@
+//     fs.watchFile(policies_file, {bigint: false, persistent: true, interval: 1}, (curr, prev) => {
+//             console.log("-----------------------------------------");
+//             console.log("|File " + "policies" + " has been modified  |");
+//             console.log("-----------------------------------------");           
+//             const policies = fs.readFileSync(policies_file, "utf8");
+//             const kbObject = parsers.parseKB(policies);
+//             console.log(kbObject);
+//             console.log("-----------------------------------------");
+//             console.log("|End of modifications--"+ curr.mtime +"--|");
+//             console.log("-----------------------------------------"); 
+//     })    
+
+//     fs.watchFile(contexts_file, {bigint: false, persistent: true, interval: 1}, (curr, prev) => {
+//             console.log("-----------------------------------------");
+//             console.log("|File " + "contexts" + " has been modified  |");
+//             console.log("-----------------------------------------");  
+//             const contexts = fs.readFileSync(contexts_file, "utf8");
+//             const contextObject = parsers.parseContext(contexts)["context"];
+//             console.log(contextObject);
+//             console.log("-----------------------------------------");
+//             console.log("|End of modifications---"+ curr.mtime +"-|");
+//             console.log("-----------------------------------------");  
+        
+//     })
+//     console.log("-----------------------------------------");
+//     console.log("|Watching Policy and Context files------|");
+//     console.log("-----------------------------------------");  
+//        
+    
+//     console.log("-----------------------------------------");
+//     console.log("|Files read-----------------------------|");
+//     console.log("-----------------------------------------"); 
