@@ -1,3 +1,7 @@
+# Changes 
+This repo contains some changes and bugfixing in order to work with RasPi-PrudensJS. The main change is that it uses a text file as a Policy input. 
+
+
 # Prudens JS
 A full implementation of Prudens in Javascript alongside a simple UI and the corresponding documentation.
 
